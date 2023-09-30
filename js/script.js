@@ -10,12 +10,10 @@ btn.addEventListener("click", function(){
 
     if(menu.style.display == 'none'){
         menu.style.display = 'block'
-        body.style.opacity = '0.8'
         
     }
     else if (menu.style.display == 'block'){
         menu.style.display = 'none'
-        body.style.opacity = '0'
 
     }
 })
