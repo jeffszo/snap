@@ -1,8 +1,7 @@
 let btn = document.getElementById('btn-menu')
 let close = document.querySelector('#btn-close')
 let menu = document.querySelector('.menu-mobile')
-let body = document.querySelector('.main')
-
+let register = document.querySelector('#register')
 
 menu.style.display = 'none'
 
@@ -24,3 +23,7 @@ close.addEventListener("click", function(){
     }
 })
 
+register.addEventListener("click", function(){
+    register.style.backgroundColor = 'black'
+    register.style.color = 'white'
+})
