@@ -23,6 +23,7 @@ close.addEventListener("click", function(){
     }
 })
 
+
 register.addEventListener("click", function(){
     register.style.backgroundColor = 'black'
     register.style.color = 'white'
