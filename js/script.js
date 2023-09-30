@@ -15,6 +15,8 @@ btn.addEventListener("click", function(){
     }
     else if (menu.style.display == 'block'){
         menu.style.display = 'none'
+        body.style.opacity = '0'
+
     }
 })
 
